@@ -16,15 +16,23 @@ a {
 .container {
    max-width: 1200px;
    margin: 0 auto;
+   padding: 0 20px;
+}
+.header {
+   background: url(../img/offer/fon.jpg) 0 0 / cover no-repeat;
+   height: 875px;
 }
 .logo img {
    display: block;
    margin-top: 7px;
 }
 .nav {
-   margin: 100px 0 75px;
+   margin: 80px 0 75px;
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 0 20px;
+   /* border: #f97800 solid 1px; */
 }
 .menu {
    display: flex;
@@ -33,6 +41,7 @@ a {
    list-style: none;
    display: flex;
    margin: 0 57px 0 0;
+   padding: 0;
 }
 .top-menu__item {
    margin: 0 22px;
@@ -49,6 +58,9 @@ a {
    font-weight: 600;
    color: #242f51;
 }
+.menu-btn {
+   width: 175px;
+}
 .btn {
    padding: 16px 40px;
    font-size: 16px;
@@ -60,9 +72,11 @@ a {
 }
 
 /* ===== */
+/*  */
 .offer-block {
    display: flex;
    justify-content: space-evenly;
+
 }
 .offer-block-tit-img {
    display: flex;
@@ -93,6 +107,7 @@ a {
 /*  */
 .offer-block__left {
    padding: 180px 0 0 0;
+   width: 50%;
 }
 .offer-block__left h1 {
    font-size: 60px;
