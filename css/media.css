@@ -74,6 +74,9 @@
    .offer-block__left {
       padding: 10px 0 0 0;
    }
+   .company h3 {
+      padding: 65px 0 40px;
+   }
 }
 
   /* ======= media 400 =======  */
