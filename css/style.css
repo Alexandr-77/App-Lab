@@ -7,7 +7,7 @@ body {
    font-size: 16px;
    color: #242f51;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, {
    margin: 0;
 }
 a {
@@ -20,7 +20,7 @@ a {
 }
 .header {
    background: url(../img/offer/fon.jpg) 0 0 / cover no-repeat;
-   height: 875px;
+   height: 1030px;
 }
 .logo img {
    display: block;
@@ -73,10 +73,12 @@ a {
 
 /* ===== */
 /*  */
+.offer {
+   
+}
 .offer-block {
    display: flex;
    justify-content: space-evenly;
-
 }
 .offer-block-tit-img {
    display: flex;
