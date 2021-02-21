@@ -1,4 +1,20 @@
 
+ /* ======= media 1200 =======  */
+ @media (max-width: 1200px) {
+   .features-right-bl__item-text {
+      margin: 0 40px 0 30px;
+   }
+}
+ /* ======= media 1140 =======  */
+ @media (max-width: 1140px) {
+   .features-block {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+}
+
+
  /* ======= media 1090 =======  */
 @media (max-width: 1090px) {
 
@@ -58,7 +74,12 @@
   }
 
 }
-
+ /* ======= media 666 =======  */
+ @media (max-width: 666px) {
+   .features-left img {
+      width: 280px;
+   }
+ }
  /* ======= media 610 =======  */
  @media (max-width: 610px) {
     .nav {
@@ -78,12 +99,35 @@
       padding: 65px 0 40px;
    }
 }
+  /* ======= media 520 =======  */
+  @media (max-width: 520px) {
+   .features-right {
+      margin: 35px 0px 0 0px;
+  }
+   .features-right-bl__item-text {
+      margin: 0 0px 0 30px;
+  }
+}
 
+  /* ======= media 450 =======  */
+  @media (max-width: 450px) {
+   .features-right {
+      margin: 35px 0px 0 0px;
+      text-align: center;
+  }
+   .features-right-bl__item {
+      display: block;
+      margin-bottom: 60px;
+   }
+   .features-right-bl__item-text {
+      margin: 0;
+  }
+}
   /* ======= media 400 =======  */
   @media (max-width: 400px) {
    .header {
       height: 840px;
-  }
+   }
    .offer-block-tit h3 {
       font-size: 14px;
    }
