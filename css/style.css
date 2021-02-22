@@ -215,3 +215,55 @@ a {
    color: #616368;
    margin: 0;
 }
+
+/* ========  jackpot  ======== */
+.jackpot-top {
+   display: flex;
+   margin: 92px 0 10px;
+}
+.jackpot-top__left {
+   width: 50%;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 50px;
+   border-right: 1px solid #b9b9b8;
+   padding: 0 6%;
+   color: #242f51;
+}
+.jackpot-top__right {
+   align-self: center;
+   width: 50%;
+   font-size: 16px;
+   line-height: 26px;
+   padding: 0 6%;
+   color: #616368;
+}
+.jackpot-block {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 110px 0 50px;
+}
+.jackpot-block__item {
+   width: 280px;
+   margin: 0 15px 30px;
+}
+
+
+.jackpot-block__item-text h3 {
+   padding: 24px 0 0px;
+}
+.jackpot-block__item:nth-child(1) .jackpot-block__item-text h3 {
+   color: #f55767;
+}
+.jackpot-block__item:nth-child(2) .jackpot-block__item-text h3 {
+   color: #2563ff;
+}
+.jackpot-block__item:nth-child(3) .jackpot-block__item-text h3{
+   color: #40975f;
+}
+.jackpot-block__item-text p {
+   margin: 0;
+   padding: 10px 0 0;
+   color: #616368;
+}

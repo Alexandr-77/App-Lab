@@ -7,6 +7,13 @@
    .features-right-bl__item-text {
       margin: 0 40px 0 30px;
    }
+   /* ========  jackpot  ======== */
+   .jackpot-top__left {
+      padding: 0 3%;
+   }
+   .jackpot-top__right {
+      padding: 0 3%;
+   }
 }
  /* ======= media 1140 =======  */
  @media (max-width: 1140px) {
@@ -22,8 +29,19 @@
 @media (max-width: 1090px) {
 
    .offer-block__left h1 {
-    font-size: 50px;
-    line-height: 70px;
+      font-size: 50px;
+      line-height: 70px;
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top {
+      display: block;
+  }
+   .jackpot-top__left {
+      border: none;
+      padding: 0 35px 35px;
+   }
+   .jackpot-top__right {
+      padding: 0 35px;
    }
 }
  /* ======= media 950 =======  */
@@ -35,9 +53,17 @@
    .offer-block__left {
       padding: 121px 0 0 0;
    }
-.offer-block__left h1 {
-   font-size: 48px;
-   line-height: 65px;
+   .offer-block__left h1 {
+      font-size: 48px;
+      line-height: 65px;
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top__left {
+      width: 85%;
+      color: #242f51;
+   }
+   .jackpot-top__right {
+      width: 85%;
    }
 }
  /* ======= media 880 =======  */
@@ -51,6 +77,10 @@
       padding: 12px 40px;
       display: block;
       text-align: center;
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top {
+      margin: 60px 0 10px;
    }
 }
  /* ======= media 786 =======  */
@@ -84,6 +114,11 @@
    .features-left img {
       width: 280px;
    }
+   /* ========  jackpot  ======== */
+   .jackpot-block {
+      justify-content: left;
+      margin: 60px 0 50px 35px;
+   }
  }
  /* ======= media 610 =======  */
  @media (max-width: 610px) {
@@ -108,16 +143,34 @@
    }
    .company-img {
       margin-bottom: 30px;
-  }
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top__left {
+      width: 100%;
+      padding: 0 0px 35px;
+   }
+   .jackpot-top__right {
+      width: 100%;
+      padding: 0 0px 35px;
+   }
+
 }
   /* ======= media 520 =======  */
   @media (max-width: 520px) {
    .features-right {
       margin: 35px 0px 0 0px;
-  }
+   }
    .features-right-bl__item-text {
       margin: 0 0px 0 30px;
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top {
+      text-align: center;
   }
+   .jackpot-top__left {
+      font-size: 34px;
+      line-height: 44px;
+   }
 }
 
   /* ======= media 450 =======  */
@@ -132,7 +185,17 @@
    }
    .features-right-bl__item-text {
       margin: 0;
-  }
+   }
+   /* ========  jackpot  ======== */
+   .jackpot-top__left {
+      font-size: 26px;
+      line-height: 36px;
+   }
+   .jackpot-block {
+      justify-content: center;
+      margin: 60px 0 50px 0px;
+      text-align: center;
+   }
 }
   /* ======= media 400 =======  */
   @media (max-width: 400px) {
