@@ -268,3 +268,32 @@ a {
    padding: 10px 0 0;
    color: #616368;
 }
+
+/* ========  designed  ======== */
+.designed-block {
+   display: flex;
+   margin: 87px 0 10px;
+}
+
+.designed-block__img {
+   width: 620px;
+}
+.designed-block__img img {
+   max-width: 100%;
+}
+
+.designed-block__text {
+   width: 425px;
+   padding: 136px 0 0 110px;
+}
+.designed-block__text h3 {
+   font-size: 36px;
+   line-height: 46px;
+   color: #242f51;
+}
+.designed-block__text p {
+   font-size: 16px;
+   line-height: 26px;
+   color: #616368;
+   margin: 24px 0 42px;
+}

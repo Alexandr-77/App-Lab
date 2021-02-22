@@ -43,6 +43,18 @@
    .jackpot-top__right {
       padding: 0 35px;
    }
+   /* ========  designed  ======== */
+   .designed-block {
+      display: block;
+   }
+   .designed-block__img {
+      width: 620px;
+      margin: 0 auto;
+  }
+   .designed-block__text {
+      width: 425px;
+      padding: 90px 0 0 110px;
+  }
 }
  /* ======= media 950 =======  */
 @media (max-width: 950px) {
@@ -87,7 +99,7 @@
 @media (max-width: 786px) {
    .header {
       height: 860px;
-  }
+   }
    .top-menu {
       margin: 0;
    }
@@ -97,17 +109,20 @@
    .offer-block__left h1 {
       font-size: 34px;
       line-height: 46px;
-  }
+   }
    .offer-block {
    flex-direction: column;
    }
    .offer-block__left {
       width: 100%;
-  }
+   }
   .offer-block__right {
      display: none;
+   }
+    /* ========  designed  ======== */
+    .designed-block__img {
+      width: 420px;
   }
-
 }
  /* ======= media 666 =======  */
  @media (max-width: 666px) {
@@ -119,6 +134,11 @@
       justify-content: left;
       margin: 60px 0 50px 35px;
    }
+   /* ========  designed  ======== */
+   .designed-block__text {
+      width: 425px;
+      padding: 60px 0 0 35px;
+  }
  }
  /* ======= media 610 =======  */
  @media (max-width: 610px) {
@@ -153,7 +173,10 @@
       width: 100%;
       padding: 0 0px 35px;
    }
-
+       /* ========  designed  ======== */
+       .designed-block__img {
+         width: 320px;
+     }
 }
   /* ======= media 520 =======  */
   @media (max-width: 520px) {
@@ -163,6 +186,7 @@
    .features-right-bl__item-text {
       margin: 0 0px 0 30px;
    }
+
    /* ========  jackpot  ======== */
    .jackpot-top {
       text-align: center;
@@ -170,6 +194,14 @@
    .jackpot-top__left {
       font-size: 34px;
       line-height: 44px;
+   }
+   /* ========  designed  ======== */
+   .designed-block {
+      margin: 50px 0 10px;
+   }
+   .designed-block__text {
+      width: 320px;
+      padding: 60px 0 0 35px;
    }
 }
 
@@ -195,6 +227,21 @@
       justify-content: center;
       margin: 60px 0 50px 0px;
       text-align: center;
+   }
+   /* ========  designed  ======== */
+   .designed-block {
+      text-align: center;
+   }
+   .designed-block__img {
+      width: 250px;
+  }
+   .designed-block__text {
+      width: 100%;
+      padding: 60px 0 0 0px;
+  }
+   .designed-block__text h3 {
+      font-size: 26px;
+      line-height: 36px;
    }
 }
   /* ======= media 400 =======  */
