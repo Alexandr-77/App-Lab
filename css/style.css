@@ -219,7 +219,7 @@ a {
 /* ========  jackpot  ======== */
 .jackpot-top {
    display: flex;
-   margin: 92px 0 10px;
+   margin: 86px 0 10px;
 }
 .jackpot-top__left {
    width: 50%;
@@ -251,6 +251,7 @@ a {
 
 
 .jackpot-block__item-text h3 {
+   font-size: 20px;
    padding: 24px 0 0px;
 }
 .jackpot-block__item:nth-child(1) .jackpot-block__item-text h3 {
