@@ -77,6 +77,10 @@
    .jackpot-top__right {
       width: 85%;
    }
+   /* ========== app ========== */
+   .app-title h2 {
+      margin: 138px 0 0;
+  }
 }
  /* ======= media 880 =======  */
 @media (max-width: 880px) {
@@ -122,7 +126,14 @@
     /* ========  designed  ======== */
     .designed-block__img {
       width: 420px;
-  }
+   }
+      /* ========== app ========== */
+      .app-title h2 {
+         margin: 115px 0 0;
+     }
+   .app-title p span {
+      display: initial;
+   }
 }
  /* ======= media 666 =======  */
  @media (max-width: 666px) {
@@ -173,10 +184,14 @@
       width: 100%;
       padding: 0 0px 35px;
    }
-       /* ========  designed  ======== */
-       .designed-block__img {
-         width: 320px;
-     }
+   /* ========  designed  ======== */
+   .designed-block__img {
+       width: 320px;
+   }
+   /* ========== app ========== */
+   /* .app-title h2 span {
+       display: initial;
+   } */
 }
   /* ======= media 520 =======  */
   @media (max-width: 520px) {
@@ -202,6 +217,12 @@
    .designed-block__text {
       width: 320px;
       padding: 60px 0 0 35px;
+   }
+   /* ========== app ========== */
+   .app-title h2 {
+      font-size: 30px;
+      line-height: 40px;
+    margin: 95px 0 0;
    }
 }
 
@@ -243,6 +264,19 @@
       font-size: 26px;
       line-height: 36px;
    }
+   /* ========== app ========== */
+   .app-title h2 {
+      font-size: 27px;
+      line-height: 35px;
+   }
+   .app-block__item {
+      width: 300px;
+      text-align: center;
+      margin: 10px 0px 32px;
+   }
+   .app-block {
+      margin: 50px 0px 0;
+   }
 }
   /* ======= media 400 =======  */
   @media (max-width: 400px) {
@@ -260,5 +294,13 @@
       font-size: 16px;
       line-height: 25px;
       margin: 22px 0 43px;
-  }
+   }
+   /* ========== app ========== */
+   .app-title h2 {
+      font-size: 27px;
+      line-height: 35px;
+   }
+   .app-title h2 span {
+      display: initial;
+   }
 }

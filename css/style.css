@@ -297,3 +297,46 @@ a {
    color: #616368;
    margin: 24px 0 42px;
 }
+
+/* ====== app ===== */
+.app-title {
+   text-align: center;
+   padding: 0 15px;
+}
+.app-title h2 {
+   font-size: 36px;
+   line-height: 46px;
+   color: #242f51;
+   font-weight: 600;
+   margin: 198px 0 0;
+}
+.app-title h2 span {
+   display: block;
+}
+.app-title p {
+   font-size: 16px;
+   line-height: 26px;
+   color: #616368;
+   font-weight: 400;
+   margin: 32px 0 0;
+}
+.app-title p span {
+   display: block;
+}
+.app-block {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 78px 0px 0;
+}
+.app-block__item {
+   width: 300px;
+   text-align: center;
+   margin: 10px 15px 60px;
+}
+.app-block__item-text h3 {
+   margin: 22px 0 0;
+}
+.app-block__item-text p {
+   margin: 9px 0 0;
+}
