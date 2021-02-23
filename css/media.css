@@ -1,4 +1,21 @@
 
+ /* ======= media 1250 =======  */
+ @media (max-width: 1250px) {
+
+   /* ====== ultimate ====== */
+    .ultimate-block {
+      display: block;
+   }
+   .ultimate-block-left {
+      text-align: center;
+   }
+   .ultimate-block-left-block {
+      margin: 56px auto 0px;
+   }
+   .ultimate-block-right {
+      text-align: center;
+  }
+}
  /* ======= media 1200 =======  */
  @media (max-width: 1200px) {
    .header {
@@ -13,6 +30,10 @@
    }
    .jackpot-top__right {
       padding: 0 3%;
+   }
+   /* ====== ultimate ====== */
+   .ultimate-block-left__top h2 {
+      margin: 50px 0 0;
    }
 }
  /* ======= media 1140 =======  */
@@ -130,9 +151,21 @@
       /* ========== app ========== */
       .app-title h2 {
          margin: 115px 0 0;
-     }
+   }
    .app-title p span {
       display: initial;
+   }
+   /* ========== ultimate ========== */
+   .ultimate-block-left__top h2 {
+      margin: 44px 0 0;
+   }
+   .ultimate-block-left-block {
+      display: block;
+      width: 100%;
+      margin: 56px 0 0px;
+   }
+   .ultimate-block-left-block__item {
+      margin: 0 auto 57px;
    }
 }
  /* ======= media 666 =======  */
@@ -307,4 +340,13 @@
    .app-title h2 span {
       display: initial;
    }
+      /* ========== ultimate ========== */
+      .ultimate-block-left__top h2 {
+         font-size: 30px;
+         line-height: 40px;
+         margin: 44px 0 0;
+     }
+      .ultimate-block-left__top p br {
+         display: none;
+     }
 }
