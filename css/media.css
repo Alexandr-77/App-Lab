@@ -240,13 +240,16 @@
       margin: 0;
    }
    /* ========  jackpot  ======== */
+   .jackpot-top {
+      margin: 0px 0 10px;
+  }
    .jackpot-top__left {
       font-size: 26px;
       line-height: 36px;
    }
    .jackpot-block {
       justify-content: center;
-      margin: 60px 0 50px 0px;
+      margin: 10px 0 50px 0px;
       text-align: center;
    }
    /* ========  designed  ======== */
@@ -268,6 +271,7 @@
    .app-title h2 {
       font-size: 27px;
       line-height: 35px;
+      margin: 74px 0 0;
    }
    .app-block__item {
       width: 300px;
@@ -275,7 +279,7 @@
       margin: 10px 0px 32px;
    }
    .app-block {
-      margin: 50px 0px 0;
+      margin: 35px 0px 0;
    }
 }
   /* ======= media 400 =======  */
