@@ -14,7 +14,10 @@
    }
    .ultimate-block-right {
       text-align: center;
-  }
+   }
+   .ultimate-btn {
+   margin: 30px auto 0;
+   }
 }
  /* ======= media 1200 =======  */
  @media (max-width: 1200px) {
@@ -35,6 +38,9 @@
    .ultimate-block-left__top h2 {
       margin: 50px 0 0;
    }
+   .extra-text {
+      margin-top: 120px;
+  }
 }
  /* ======= media 1140 =======  */
  @media (max-width: 1140px) {
@@ -167,6 +173,13 @@
    .ultimate-block-left-block__item {
       margin: 0 auto 57px;
    }
+   /* ====== extra ===== */
+   .extra-text h2 br {
+      display: none;
+   }
+   .extra-text p br {
+      display: none;
+   }
 }
  /* ======= media 666 =======  */
  @media (max-width: 666px) {
@@ -257,6 +270,17 @@
       line-height: 40px;
     margin: 95px 0 0;
    }
+   /* ====== extra ===== */
+   .extra-text {
+      margin-top: 90px;
+   }
+   .extra-text h2 {
+      font-size: 30px;
+      line-height: 40px;
+   }
+   .extra-block-btn {
+      margin: 40px auto 10px;
+  }
 }
 
   /* ======= media 450 =======  */
@@ -314,6 +338,11 @@
    .app-block {
       margin: 35px 0px 0;
    }
+      /* ====== extra ===== */
+      .extra-text h2 {
+         font-size: 26px;
+         line-height: 36px;
+     }
 }
   /* ======= media 400 =======  */
   @media (max-width: 400px) {
@@ -340,13 +369,20 @@
    .app-title h2 span {
       display: initial;
    }
-      /* ========== ultimate ========== */
-      .ultimate-block-left__top h2 {
-         font-size: 30px;
-         line-height: 40px;
-         margin: 44px 0 0;
-     }
-      .ultimate-block-left__top p br {
-         display: none;
-     }
+   /* ========== ultimate ========== */
+   .ultimate-block-left__top h2 {
+      font-size: 30px;
+      line-height: 40px;
+      margin: 44px 0 0;
+   }
+   .ultimate-block-left__top p br {
+      display: none;
+   }
+   /* ====== extra ===== */
+   .extra-block-btn {
+      width: 270px;
+   }
+  .extra-block-btn .btn {
+   padding: 3px 34px;
+   }
 }

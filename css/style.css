@@ -65,10 +65,15 @@ a {
    padding: 16px 40px;
    font-size: 16px;
    line-height: 44px;
-   font-weight: 700;
+   font-weight: 600;
    color: #fff;
    background-color: #2500f9;
    border-radius: 28.5px;
+   transition: all .5s;
+}
+.btn:hover {
+   color: #fff;
+   background-color: #4b2ef5;
 }
 
 /* ===== */
@@ -387,10 +392,109 @@ a {
    margin: 0;
 }
 
- .ultimate-block-right {
+.ultimate-block-right {
     /* width: 600px; */
     align-self: flex-end;
  }
  .ultimate-block-right img {
    max-width: 100%;
- }
+}
+.ultimate-btn {
+   width: 200px;
+}
+.ultimate-btn .btn {
+   padding: 16px 70px;
+}
+
+/* ====== extra ===== */
+.extra-text {
+   text-align: center;
+   margin-top: 173px;
+}
+.extra-text h2 {
+   font-size: 36px;
+   line-height: 46px;
+   color: #242f51;
+}
+.extra-text p {
+   font-size: 16px;
+   line-height: 26px;
+   color: #616368;
+   margin: 27px 0 10px;
+}
+.extra-block-btn {
+   display: flex;
+   justify-content: space-around;
+   border: 2px solid #ebebeb;
+   /* border: 2px solid #031bf3; */
+   border-radius: 30px;
+   width: 290px;
+   padding: 3px 2px;
+   margin: 74px auto 10px;
+}
+.extra-block-btn .btn {
+   padding: 3px 34px;
+}
+.extra-block-btn .btn-bz {
+   background: none;
+   color: #616368;
+   transition: all .5s;
+}
+.extra-block-btn .btn-bz:hover {
+   color: #2500f9;
+}
+.extra-block-card {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-bottom: 60px;
+}
+.extra-card {
+   padding: 50px 6px 25px;
+   border: 2px solid #ebebeb;
+   border-radius: 8px;
+   text-align: center;
+   margin: 28px 3px 0;
+   width: 300px;
+}
+.extra-card h2 {
+   font-size: 60px;
+   color: #242f51;
+}
+.extra-card h2 span {
+   font-size: 18px;
+   line-height: 28px;
+   color: #999ca5;
+}
+.extra-card h3 {
+   font-size: 20px;
+   line-height: 28px;
+   color: #242f51;
+}
+.extra-card h4 {
+   font-size: 16px;
+   line-height: 28px;
+   color: #999ca5;
+}
+.extra-card-ul {
+   list-style: none;
+   margin: 69px 0 42px;
+   padding: 0;
+}
+.extra-card-ul__li {
+   margin-bottom: 23px;
+}
+.btn-bzf {
+   display: block;
+   background: none;
+   color: #2500f9;
+   transition: all .5s;
+   padding: 20px 0 0;
+}
+.btn-bzf:hover {
+   color: #5c41f5;
+   background: none;
+}
+.extra-card .btn {
+   margin-bottom: 0;
+}
