@@ -434,11 +434,11 @@ a {
    display: flex;
    justify-content: space-around;
    border: 2px solid #ebebeb;
-   /* border: 2px solid #031bf3; */
    border-radius: 30px;
    width: 290px;
    padding: 3px 2px;
    margin: 74px auto 10px;
+   cursor: pointer;
 }
 .extra-block-btn .btn {
    padding: 3px 34px;
