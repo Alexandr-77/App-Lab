@@ -57,6 +57,10 @@ a {
    line-height: 44px;
    font-weight: 600;
    color: #242f51;
+   transition: all .5s;
+}
+.top-menu__item a:hover {
+   color: #5c41f5;
 }
 .menu-btn {
    width: 175px;
@@ -137,6 +141,10 @@ a {
 .btn-x {
    background: none;
    color: #2500f9;
+}
+.btn-x:hover {
+   background: none;
+   color: #5c41f5;
 }
 
  /* ====== company ====== */
@@ -265,7 +273,7 @@ a {
 .jackpot-block__item:nth-child(2) .jackpot-block__item-text h3 {
    color: #2563ff;
 }
-.jackpot-block__item:nth-child(3) .jackpot-block__item-text h3{
+.jackpot-block__item:nth-child(3) .jackpot-block__item-text h3 {
    color: #40975f;
 }
 .jackpot-block__item-text p {
@@ -499,3 +507,14 @@ a {
 .extra-card .btn {
    margin-bottom: 0;
 }
+
+
+
+#Annually {
+   display: none;
+}
+
+/* .non {
+   display: none;
+} */
+
