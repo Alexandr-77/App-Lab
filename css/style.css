@@ -455,7 +455,7 @@ a {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   margin-bottom: 60px;
+   margin-bottom: 100px;
 }
 .extra-card {
    padding: 50px 6px 25px;
@@ -510,9 +510,6 @@ a {
 
 
 
-
-
-
 #Annually {
    display: none;
 }
@@ -521,3 +518,104 @@ a {
    display: none;
 }
 
+
+/* ====== testimonila ===== */
+.testimonila {
+   border-top: 2px solid #ebebeb;
+   padding-top: 150px;
+   margin-bottom: 50px;
+}
+.testimonila-bl {
+   display: flex;
+}
+.testimonila-bl-img {
+   width: 700px;
+   align-self: center;
+}
+.testimonila-bl-img img {
+   width: 100%;
+}
+.testimonila-bl-slayd {
+   width: 50%;
+}
+.testimonila-bl-slayd-tx h2 {
+   font-size: 40px;
+   line-height: 50px;
+   color: #242f51;
+}
+.testimonila-bl-slayd-tx p {
+   font-size: 16px;
+   line-height: 26px;
+   color: #616368;
+   margin: 25px 0 16px;
+}
+.testimonila-slayder__item h3 {
+   font-size: 20px;
+   color: #242f51;
+   margin: 22px 0 22px;
+}
+.testimonila-slayder__item p {
+   font-size: 16px;
+   color: #616368;
+   margin: 10px 0 60px;
+}
+.testimonila-slayder__item-block {
+   display: flex;
+}
+.testimonila-slayder__item-img {
+   width: 90px;
+   height: 90px;
+   border-radius: 100%;
+   overflow: hidden;
+}
+.testimonila-slayder__item-img img {
+   display: block;
+   max-width: 100%;
+}
+.testimonila-slayder__item-opes {
+   align-self: center;
+   padding-left: 28px;
+}
+.testimonila-slayder__item-opes h4 {
+   font-size: 18px;
+   color: #242f51;
+}
+.testimonila-slayder__item-opes p {
+   font-size: 18px;
+   line-height: 28px;
+   color: #616368;
+   margin: 0;
+}
+
+/* слайдер  */
+.slick-arrow {
+   background: #eff3f8;
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   padding-bottom: 2px;
+}
+.slick-prev {
+   right: 54px;
+   left: auto;
+   z-index: 100;
+}
+.slick-next {
+   right: 10px;
+}
+.slick-prev, .slick-next {
+   top: 88%;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    opacity: 1;
+    color: #464bdb;
+    align-items: baseline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+
+
+
+}
