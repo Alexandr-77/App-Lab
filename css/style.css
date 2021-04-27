@@ -698,20 +698,21 @@ input::after {
        0px 0px 0px 1px rgba(155,155,155,0.3), 
        0px 2px 2px rgba(0,0,0,0.1);
        
-       content: '-';
+   content: '-';
 
 
 }
 .ac-container label:hover:after,
 .ac-container input:checked + label:hover:after{
+   display: flex;
+   text-align: center;
    content: '+';
    font-size: 37px;
    position: absolute;
    width: 24px;
    height: 24px;
    right: 37px;
-   top: 7px;
-   /* background: transparent url(../images/arrow_down.png) no-repeat center center; */
+   /* top: 7px; */
 }
 
 /* .ac-container input:checked + label:hover:after{
