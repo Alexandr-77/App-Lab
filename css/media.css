@@ -207,6 +207,10 @@
       font-size: 38px;
       line-height: 48px;
   }
+  .ac-container label::after {
+   right: 10px;
+   }
+
 }
  /* ======= media 666 =======  */
  @media (max-width: 666px) {
@@ -437,5 +441,11 @@
    .testimonila-bl-slayd-tx h2 {
       font-size: 22px;
       line-height: 32px;
+  }
+  .ac-container label {
+   font-size: 16px;
+   }
+   .ac-container label::after {
+      font-size: 26px;
   }
 }
