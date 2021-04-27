@@ -620,7 +620,7 @@ a {
 
 /* ====== questions ===== */
 .questions {
-   margin: 200px 0;
+   margin: 200px 0 14px;
    border-bottom: 2px solid #e5e6e5;
 }
 .questions-block h2 {
@@ -766,3 +766,49 @@ input::after {
 }
 
 /* ====== questions /===== */
+
+/* ====== download ===== */
+.download-block {
+   display: flex;
+}
+.download-bl {
+   max-width: 45%;
+   margin-left: 15%;
+}
+.download-bl h2 {
+   font-size: 48px;
+   line-height: 58px;
+   font-weight: 600;
+   color: #242f51;
+   margin-top: 96px;
+}
+.download-bl p {
+   font-size: 16px;
+   line-height: 26px;
+   color: #616368;
+   margin: 30px 0 50px;
+}
+.download-bl-img {
+   margin-bottom: 100px;
+}
+.download-bl-img img {
+   margin-right: 32px;
+}
+.download-img {
+   width: 50%;
+   display: flex;
+   align-items: flex-end;
+   margin-left: auto;
+}
+.download-img img {
+   max-width: 100%;
+   /* object-fit: cover; */
+}
+/* ====== download /===== */
+
+/* ====== footer ====== */
+.footer {
+min-height: 532px;
+background-color: #09142e;
+}
+/* ====== footer /===== */

@@ -18,6 +18,28 @@
    .ultimate-btn {
    margin: 30px auto 0;
    }
+   .download-block {
+      display: block;
+   }
+   .download-bl {
+      max-width: 100%;
+      margin-left: 15%;
+   }
+  .download-img {
+   width: 100%;
+   margin-left: auto;
+   }
+  .download-img img {
+   margin-left: auto;
+   width: 100%;
+   }
+
+.download-bl p {
+   padding-right: 15px;
+   }
+   .download-bl-img {
+      margin-bottom: 50px;
+  }
 }
  /* ======= media 1200 =======  */
  @media (max-width: 1200px) {
@@ -70,6 +92,9 @@
    .jackpot-top__right {
       padding: 0 35px;
    }
+   .questions {
+      margin: 100px 0 14px;
+  }
    /* ========  designed  ======== */
    .designed-block {
       display: block;
@@ -119,6 +144,12 @@
    /* ========== app ========== */
    .app-title h2 {
       margin: 138px 0 0;
+  }
+  .ac-container {
+   margin: 10px auto 90px;
+   }
+   .download-bl h2 {
+      margin-top: 60px;
   }
 }
  /* ======= media 880 =======  */
@@ -210,6 +241,9 @@
   .ac-container label::after {
    right: 10px;
    }
+   .download-bl {
+      margin-left: 5%;
+  }
 
 }
  /* ======= media 666 =======  */
@@ -252,6 +286,10 @@
    .company-img {
       margin-bottom: 30px;
    }
+   .questions-block h2 {
+      font-size: 38px;
+      line-height: 48px;
+  }
    /* ========  jackpot  ======== */
    .jackpot-top__left {
       width: 100%;
@@ -319,7 +357,10 @@
   .testimonila-bl-slayd-tx h2 {
    font-size: 29px;
    line-height: 39px;
-}
+   }
+   .download-bl-img {
+      margin-bottom: 50px;
+  }
 }
 
   /* ======= media 450 =======  */
@@ -392,6 +433,11 @@
    .slick-prev, .slick-next {
       top: 104%;
    }
+   .download-bl h2 {
+      font-size: 40px;
+      line-height: 47px;
+
+  }
 }
   /* ======= media 400 =======  */
   @media (max-width: 400px) {
@@ -442,6 +488,10 @@
       font-size: 22px;
       line-height: 32px;
   }
+  .questions-block h2 {
+   font-size: 32px;
+   line-height: 42px;
+}
   .ac-container label {
    font-size: 16px;
    }
